@@ -97,9 +97,8 @@ app.post("/compose", function (req, res) {
     res.redirect('/');
 })
 
-const port = process.env.PORT || 3000;
 
-app.listen(port, () => {
-  console.log("Server is running on port", $,{port});
-});
+app.listen(3000, function () {
 
+    console.log("Server running at port 3000....")
+})
